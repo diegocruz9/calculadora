@@ -156,7 +156,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
                 compute();
                 ACTION = SUBTRACTION;
-                result.setText(String.valueOf(val1)+ "+");
+                result.setText(String.valueOf(val1)+ "-");
                 info.setText(null);
 
             }
@@ -179,7 +179,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
                 compute();
                 ACTION = MULTIPLICATION;
-                result.setText(String.valueOf(val1)+ "+");
+                result.setText(String.valueOf(val1)+ "*");
                 info.setText(null);
 
             }
@@ -190,7 +190,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
                 compute();
                 ACTION = DIVISION;
-                result.setText(String.valueOf(val1)+ "+");
+                result.setText(String.valueOf(val1)+ "/");
                 info.setText(null);
 
             }
@@ -201,7 +201,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
                 compute();
                 ACTION = EQU;
-                result.setText(String.valueOf(val1)+ "+");
+                result.setText(String.valueOf(val1)+ "=");
                 info.setText(null);
 
             }
@@ -212,7 +212,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
                 compute();
                 ACTION = EQU;
-                result.setText(String.valueOf(val1)+ "+");
+                result.setText(String.valueOf(val1)+ "c");
                 info.setText(null);
 
             }
